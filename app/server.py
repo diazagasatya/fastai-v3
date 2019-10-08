@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1zQS2AMeG_o65R_ywWlOMcCwtzoRqWl7t'
-export_file_name = 'pattern_recognition.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1knKtyY_zmj1ntzTBcrSlsk43P2DbDwpX'
+export_file_name = 'pattern_recognition_kepingai.pkl'
 
 classes = ['ascending_triangle', 'descending_triangle', 'consolidation', 'inverse_head_and_shoulders', 'head_and_shoulders']
 path = Path(__file__).parent
