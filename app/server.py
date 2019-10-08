@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1zQS2AMeG_o65R_ywWlOMcCwtzoRqWl7t'
+export_file_name = 'pattern_recognition.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['ascending_triangle', 'descending_triangle', 'consolidation', 'inverse_head_and_shoulders', 'head_and_shoulders']
 path = Path(__file__).parent
 
 app = Starlette()
